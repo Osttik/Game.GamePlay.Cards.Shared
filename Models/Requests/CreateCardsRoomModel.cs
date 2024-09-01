@@ -1,11 +1,14 @@
 ﻿using Game.GamePlay.Cards.Shared.Models.Enums;
+using Game.Shared.Models.Requests;
 using System.ComponentModel.DataAnnotations;
 
-namespace Game.Shared.Models.Requests
+#nullable disable
+
+namespace Game.GamePlay.Cards.Shared.Models.Requests
 {
-    public class CreateCardsRoomModel: CreateRoomModel
+    public class CreateCardsRoomModel : CreateRoomModel
     {
         [Required]
-        public required GameMode GameMode { get; set; }
+        public GameMode GameMode { get; set; }
     }
 }

@@ -1,8 +1,11 @@
-﻿namespace Game.GamePlay.Cards.Shared.Models.SoketMessages
+﻿
+#nullable disable
+
+namespace Game.GamePlay.Cards.Shared.Models.SoketMessages
 {
     public class StartGameSessionMessageRequest
     {
-        public required long PlayerId { get; set; }
-        public required long RoomId { get; set; }
+        public long PlayerId { get; set; }
+        public long RoomId { get; set; }
     }
 }
