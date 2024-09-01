@@ -1,9 +1,10 @@
-namespace Game.GamePlay.Cards.Shared.Models.Enums;
-
-public enum GameMode
+namespace Game.GamePlay.Cards.Shared.Models.Enums
 {
-    Cards24,
-    Cards36,
-    Cards52,
-    Cards54
+    public enum GameMode
+    {
+        Cards24,
+        Cards36,
+        Cards52,
+        Cards54
+    }
 }
