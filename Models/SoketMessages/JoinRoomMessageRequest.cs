@@ -4,15 +4,12 @@
 
 namespace Game.GamePlay.Cards.Shared.Models.SoketMessages
 {
-    public class DefeatPlayerMessageRequest
+    public class JoinRoomMessageRequest
     {
         [Required]
         public long PlayerId { get; set; }
         [Required]
-        public long SessionId { get; set; }
-        [Required]
-        public long DefeatCardId { get; set; }
-        [Required]
-        public long BoardCardId { get; set; }
+        public long RoomId { get; set; }
+        public string Password { get; set; }
     }
 }
