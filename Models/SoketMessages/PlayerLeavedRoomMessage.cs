@@ -5,9 +5,9 @@ using System.ComponentModel.DataAnnotations;
 
 namespace Game.GamePlay.Cards.Shared.Models.SoketMessages
 {
-    public class AttackPlayerMessage : ISocketMessage
+    public class PlayerLeavedRoomMessage : ISocketMessage
     {
         [Required]
-        public long CardId { get; set; }
+        public long PlayerId { get; set; }
     }
 }
