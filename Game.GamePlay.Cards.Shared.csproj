@@ -14,4 +14,8 @@
     <ProjectReference Include="..\Game.Shared\Game.Shared.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Models\SoketMessages\SpecialCards\" />
+  </ItemGroup>
+
 </Project>
