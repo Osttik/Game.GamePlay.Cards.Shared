@@ -11,11 +11,8 @@ namespace Game.GamePlay.Cards.Shared.Models.SoketMessages
     public class StartGameMessage : ISocketMessage
     {
         public List<CardDTO> Cards { get; set; }
-        
         public PlayerGameSessionState PlayerGameSessionState { get; set; }
-        
-        public Guid SessionId { get; set; }
-        
+        public string SessionId { get; set; }
         public CardDTO TrumpCard { get; set; }
     }
 }
