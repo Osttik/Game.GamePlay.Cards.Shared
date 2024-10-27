@@ -15,5 +15,7 @@ namespace Game.GamePlay.Cards.Shared.Models.SoketMessages
         public PlayerGameSessionState PlayerGameSessionState { get; set; }
         
         public Guid SessionId { get; set; }
+        
+        public CardDTO TrumpCard { get; set; }
     }
 }
