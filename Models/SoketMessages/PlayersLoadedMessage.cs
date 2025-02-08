@@ -4,9 +4,7 @@
 
 namespace Game.GamePlay.Cards.Shared.Models.SoketMessages
 {
-    public class PlayerLoadedMessage : ISocketMessage
+    public class PlayersLoadedMessage : ISocketMessage
     {
-        public long SessionId { get; set; }
-        public long PlayerId { get; set; }
     }
 }
