@@ -9,5 +9,7 @@ namespace Game.GamePlay.Cards.Shared.Models.SoketMessages
     public class StartGameMessage : ISocketMessage
     {
         public List<CardDTO> Cards { get; set; }
+        public CardDTO TrumpCard { get; set; }
+        public long GameSessionId { get; set; }
     }
 }
